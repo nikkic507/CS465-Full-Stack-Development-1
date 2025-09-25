@@ -58,7 +58,7 @@ process.on('SIGTERM', () => {
     process.exit(0);
 });
 
-//Make initial Mongoose schema
+//Make initial connection to DB
 connect();
 
 //Import Mongoose schema
